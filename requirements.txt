@@ -1,0 +1,12 @@
+streamlit>=1.35
+fastapi>=0.110
+pydantic>=2.0
+yfinance>=0.2.40
+pandas>=2.0
+numpy>=1.26
+requests>=2.31
+statsmodels>=0.14
+# only needed if you also run the FastAPI server (local, Render, n8n):
+uvicorn>=0.29
+# only needed to run tests:
+# pytest>=8.0
